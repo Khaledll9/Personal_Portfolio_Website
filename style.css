@@ -382,7 +382,7 @@ body{
 }
 
 .work .content{
-  display: -webkit-box;
+  display: flex;
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
@@ -401,14 +401,6 @@ body{
   overflow: hidden;
   border-radius: 40px;
 }
-.work .content .card .card-img-web{
-  position: relative;
-  width: 320%;
-  height: 100%;
-  overflow: auto;
-  border-radius: 10px;
-}
-
 .work .content .card .card-img img{
   position: absolute;
   top: 0;
